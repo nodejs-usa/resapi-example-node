@@ -10,7 +10,7 @@ router.get('/', (req,res) =>{
 router.get('/test', (req,res) =>{
     const data = {
         "name": "marlon",
-        "web": "asd"
+        "web": "www.ynext.cl"
     }
     res.json(data);
 })
